@@ -21,12 +21,12 @@ document.querySelector('#home').onmouseover = (e) => {
     let x = (window.innerWidth - e.pageX * 2) / 90;
     let y = (window.innerHeight - e.pageY * 2) / 90;
 
-    document.querySelector('.icecream__presentation-illustration').style.transform = `translateX(${y}px)
+    document.querySelector('.icecream__presentation__illustration').style.transform = `translateX(${y}px)
     translateY(${x}px)`;
 }
 document.querySelector('#home').onmouseleave = () => {
 
-    document.querySelector('.icecream__presentation-illustration').style.transform = `translateX(0px)
+    document.querySelector('.icecream__presentation__illustration').style.transform = `translateX(0px)
     translateY(0px)`;
 }
 
@@ -50,7 +50,7 @@ hamburger.addEventListener('click', function() {
 
 let timeline = gsap.timeline();
 
-timeline.from('.icecream__presentation-illustration', {
+timeline.from('.icecream__presentation__illustration', {
     duration: 1,
     alpha: 0,
     y: 100,

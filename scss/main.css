@@ -994,8 +994,18 @@ form {
   .header__nav {
     margin-left: 37px;
   }
+  .icecream__presentation__illustration {
+    width: 500px;
+  }
+  .icecream__presentation__subtitle {
+    font-size: 13px;
+  }
   .latest .latest__subtitle {
     font-size: 12px;
+  }
+  .latest__image.blur {
+    width: 350px;
+    height: 350px;
   }
   .reviews__image-ice {
     width: 464px;
