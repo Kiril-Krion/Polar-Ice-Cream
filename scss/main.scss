@@ -391,12 +391,12 @@ html {
     margin-bottom: 50px;
 }
 .blockqute::before {
-    content: url(img/quote.png);
+    content: url("../img/quote.png");
     position: relative;
     right: 12px;
 }
 .blockqute::after {
-    content: url(img/quote-right.png);
+    content: url("../img/quote-right.png");
     position: relative;
     top: 5px;
     left: 12px;
@@ -413,14 +413,14 @@ html {
     border-radius: 50%;
 }
 .reviews__avatars::before {
-    content: url(img/arrow-left.png);
+    content: url("../img/arrow-left.png");
     position: relative;
     bottom: 10px;
     right: 20px;
     opacity: 0.7;
 }
 .reviews__avatars::after {
-    content: url(img/arrow-right.png);
+    content: url("../img/arrow-right.png");
     position: relative;
     bottom: 10px;
     left: 20px;
@@ -466,7 +466,7 @@ html {
         margin-bottom: 20px;
     }
     .first__list-item::before {
-        content: url(img/1icon.png);
+        content: url("../img/1icon.png");
         background-color: #fff;
         position: relative;
         margin-right: 10px;
@@ -474,7 +474,7 @@ html {
         border-radius: 3px;
     }
     .second__list-item::before {
-        content: url(img/2icon.png);
+        content: url("../img/2icon.png");
         background-color: #fff;
         position: relative;
         margin-right: 10px;
@@ -482,7 +482,7 @@ html {
         border-radius: 3px;
     }
     .third__list-item::before {
-        content: url(img/3icon.png);
+        content: url("../img/3icon.png");
         background-color: #fff;
         position: relative;
         margin-right: 10px;
