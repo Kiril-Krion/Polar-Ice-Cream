@@ -837,9 +837,11 @@ form {
 }
 
 @media (max-width: 1142px) {
-  .icecream__presentation-illustration {
-    -webkit-transform: translateX(-105px);
-            transform: translateX(-105px);
+  .icecream__presentation__title {
+    font-size: 30px;
+  }
+  .icecream__presentation__illustration {
+    width: 600px;
   }
 }
 
@@ -854,7 +856,7 @@ form {
     font-size: 14px;
     line-height: 20px;
   }
-  .icecream__presentation-illustration {
+  .icecream__presentation__illustration {
     width: 800px;
   }
   .products__tabs {
@@ -876,7 +878,7 @@ form {
             flex-direction: column;
     margin-bottom: 38px;
   }
-  .product__ice-cream img {
+  .product__image {
     width: 500px;
     height: 380px;
   }
@@ -910,9 +912,8 @@ form {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .icecream__presentation-illustration {
-    -webkit-transform: translateX(13px);
-            transform: translateX(13px);
+  .icecream__presentation__illustration {
+    width: 600px;
   }
   .icecream__presentation-text {
     padding-bottom: 50px;
@@ -1026,6 +1027,72 @@ form {
   }
   .question__items .question__input {
     width: 324px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hamburger.is-active {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 883px;
+  }
+  .icecream__presentation__illustration {
+    width: 300px;
+  }
+  .icecream__presentation__title {
+    font-size: 20px;
+  }
+  .latest__image {
+    width: 400px;
+    height: 400px;
+  }
+  .describe__subtitle {
+    font-size: 12px;
+  }
+  .product__image {
+    width: 406px;
+    height: 354px;
+  }
+  .reviews__image-ice {
+    width: 358px;
+    height: 282px;
+  }
+  .phone-image {
+    width: 250px;
+  }
+  .question__button {
+    -webkit-transform: translateX(-23px);
+            transform: translateX(-23px);
+  }
+}
+
+@media (max-width: 390px) {
+  .header__nav {
+    margin: 0 auto;
+  }
+  .hamburger.is-active {
+    bottom: 780px;
+  }
+  .product__image {
+    width: 232px;
+    height: 211px;
+  }
+  .latest__image {
+    width: 285px;
+    height: 285px;
+  }
+  .download__text {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  .download__text
+.download__subtitle {
+    font-size: 10px;
+  }
+  .download__link-button {
+    -webkit-transform: translateX(-28px);
+            transform: translateX(-28px);
   }
 }
 /*# sourceMappingURL=main.css.map */

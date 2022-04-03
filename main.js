@@ -17,18 +17,24 @@ tabsBtn.forEach(function(item) {
     });
 });
 
-document.querySelector('#home').onmouseover = (e) => {
-    let x = (window.innerWidth - e.pageX * 2) / 90;
-    let y = (window.innerHeight - e.pageY * 2) / 90;
+// document.querySelector('#home').onmouseover = (e) => {
+//     let x = (window.innerWidth - e.pageX * 2) / 90;
+//     let y = (window.innerHeight - e.pageY * 2) / 90;
 
-    document.querySelector('.icecream__presentation__illustration').style.transform = `translateX(${y}px)
-    translateY(${x}px)`;
-}
-document.querySelector('#home').onmouseleave = () => {
+//     document.querySelector('.icecream__presentation__illustration').style.transform = `translateX(${y}px)
+//     translateY(${x}px)`;
+// }
+// document.querySelector('#home').onmouseleave = () => {
 
-    document.querySelector('.icecream__presentation__illustration').style.transform = `translateX(0px)
-    translateY(0px)`;
-}
+//     document.querySelector('.icecream__presentation__illustration').style.transform = `translateX(0px)
+//     translateY(0px)`;
+// }
+
+
+// Parallax effect
+const scene = document.getElementById('scene');
+const parallaxInstance = new Parallax(scene);
+
 
 
 const hamburger = document.querySelector('.hamburger');
